@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website Design | Codehal</title>
+    
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Heading design-->
+    <header class="header">
+        <a href="#" class="logo">Yu Nung</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Hung Yu Nung</h1>
+            <h1>洪宇儂</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore aliquam, modi
+                aspernatur placeat
+                architecto amet laudantium id.
+            </p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/HongNongs/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.twitch.tv/tw_dragonx"><i class='bx bxl-twitch'></i></a>
+                <a href="https://www.youtube.com/@yununghung7259"><i class='bx bxl-youtube'></i></a>
+                <a href="https://discord.gg/xVadgCKg"><i class='bx bxl-discord-alt'></i></a>
+            </div>
+            <a href="https://github.com/CodeMaker0314/Main_Website.git" class="btn">Download My Website Html</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/Hung.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/Hung.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Codemaker, Streamer, MusicMaker</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore offcia 
+                asperiores labore officiis suscipit ex at non impedit nostrum animi illum mollitia 
+                itaque reprehenderit laudantium molestiae eum porro molestias requdiandae, amet ea eos
+                alias corporis laborum nobis. Tempore deserunt repellenddus quos nihil voluptas est
+                suscipit.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Project!</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/Portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>第三代自走車</h4>
+                    <p>使用aduno nano的板子製作的自走車</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/Portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Html Code File</h4>
+                    <p>圖片為本網站的HTML製作程式碼</p>
+                    <a href="https://github.com/CodeMaker0314/Main_Website.git"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/Portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>FL Studio 音樂製作</h4>
+                    <p>使用FL Studio的免費功能製作EDM音樂</p>
+                    <a href="https://youtu.be/xbxEpO1TkAg"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/Portfolio4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Blender 3D動畫製作</h4>
+                    <p>藉由Blender的動畫要、建模功能製作的影片</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/Portfolio5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Pygame 遊戲製作</h4>
+                    <p>使用pygame製作一款尋找寶藏的遊戲</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Messaage" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Codehal | All Right Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+    <!--custom js-->
+    <script src="js/script.js"></script>
+</body>
+</html>
